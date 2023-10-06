@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="index.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required placeholder="enter your name"><br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="mehek@gmail.com"><br>
+        <label for="Mobile">PHnumber:</label>
+        <input type="tel" id="Mobile" required maxlength="10"> <br>
+        <label for="Gender">Gender</label>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="Gender">
+        <label for="female">female</label>
+        <input type="radio" id="female" name="Gender">
+        <label for="others">other</label>
+        <input type="radio" id="other" name="Gender"><br>
+        <label for="Cars">select cars</label>
+        <select id="payment">
+            <option name="BMW">BMW</option>
+            <option name = "Swift">Swift</option>
+            <option name="Honday">Honday</option>
+        </select><br>
+        <label for="files">files</label>
+        <input type="file" id="file"><br>
+        <label for="comment">comment</label>
+        <textarea id="comment" name="comment" rows="15" cols="35"></textarea><br>
+        <label for="checkbox">Are you sure?</label>
+        <input type="checkbox" required><br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
